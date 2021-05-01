@@ -23,7 +23,7 @@ main{
     text-shadow: 3px 3px 10px black;
     width: 30%;
     margin: auto;
-    padding-top: 180px;
+    padding-top: 250px;
 }
 
 .h1-pt1{
@@ -34,7 +34,7 @@ main{
 }
 
 .color1{
-    color: yellow;
+    color: #2E64FE;
 }
 
 .color2{
@@ -42,24 +42,31 @@ main{
 }
 
 .nav-menu-header{
-    background-color:darkolivegreen;
+    background-color:#0B0B61;
 }
 
 .link-menu{
     text-decoration: none;
     color: white;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.link-menu:hover{
+    color: black;
 }
 
 .button-menu{
     padding: 14px;
     margin: 0px;
-    background-color: darkolivegreen;
+    background-color: #0B0B61;
     border: none;
 }
 
 .button-menu:hover{
     background-color: white;
-    color: black;
+    cursor: pointer;
 }
 
 /*Footer principal*/
