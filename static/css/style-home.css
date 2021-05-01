@@ -41,6 +41,27 @@ main{
     color: white;
 }
 
+.nav-menu-header{
+    background-color:darkolivegreen;
+}
+
+.link-menu{
+    text-decoration: none;
+    color: white;
+}
+
+.button-menu{
+    padding: 14px;
+    margin: 0px;
+    background-color: darkolivegreen;
+    border: none;
+}
+
+.button-menu:hover{
+    background-color: white;
+    color: black;
+}
+
 /*Footer principal*/
 .footer-principal{
     background-color: black;
@@ -54,16 +75,18 @@ main{
 .section-principal{
     display: inline-block;
     background-color: white;
-    margin: 0px 0px 15px 15px;
+    margin: 0px 0px 10px 5px;
     padding: 8px;
-    width: 70%;
+    width: 75%;
+    height: 100%;
 }
 
+/*Section lateral*/
 .section-lateral{
     display: inline-block;
     background-color: white;
     padding: 8px;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 10px 0px;
     width: 250px;
-    margin-top: 5px;
+    height: 100%;
 }
