@@ -79,6 +79,22 @@ main{
 }
 
 /*Section principal*/
+.artigo{
+    margin: 0px 8px 0px 8px;
+}
+
+.section-principal p{
+    text-align: justify;
+}
+
+.section-principal h1{
+    font-size: 20px;
+}
+
+.section-principal h2{
+    font-size: 16px;
+}
+
 .section-principal{
     display: inline-block;
     background-color: white;
