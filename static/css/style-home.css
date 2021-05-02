@@ -79,8 +79,14 @@ main{
 }
 
 /*Section principal*/
-.artigo{
+.article{
     margin: 0px 8px 0px 8px;
+}
+
+.article-header{
+    background-color: #0B0B61;
+    padding: 2px;
+    text-align: center;
 }
 
 .section-principal p{
@@ -89,6 +95,7 @@ main{
 
 .section-principal h1{
     font-size: 20px;
+    color: white;
 }
 
 .section-principal h2{
@@ -98,10 +105,16 @@ main{
 .section-principal{
     display: inline-block;
     background-color: white;
-    margin: 0px 0px 10px 5px;
+    margin: 8px 0px 10px 5px;
     padding: 8px;
     width: 75%;
     height: 100%;
+}
+
+.div-exemplo{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
 }
 
 /*Section lateral*/
@@ -109,7 +122,7 @@ main{
     display: inline-block;
     background-color: white;
     padding: 8px;
-    margin: 0px 0px 10px 0px;
-    width: 250px;
+    margin: 8px 0px 10px 0px;
+    width: 20%;
     height: 100%;
 }
