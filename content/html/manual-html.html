@@ -133,7 +133,31 @@
                             Google&lt/a&gt<br><br>Como fica a aparência:<br>
                         <a href="https://www.google.com" target="_blank">Acessar Google</a></div>
                         Abaixo está um exemplo de uso da tag &ltlink&gt.
-                        <div class="div-exemplo">&ltlink href="static/style.css rel="stylesheet"&gt</div>
+                        <div class="div-exemplo">&ltlink href="static/style.css" rel="stylesheet"&gt</div>
+                    </p>
+                    <h2>Tipos de href para a tag &lta&gt</h2>
+                    <p>Abaixo são listados os diferentes tipos de href, contendo ainda um exemplo de aplicação.</p>
+                    <ul>
+                        <li><b>Acesso a site externo: </b>Se o valor de href for uma url de site externo, como 
+                            "https://www.google.com", então o link vai direcionar para uma página fora do 
+                            site/diretório.</li>
+                        <li><b>Acesso a página do próprio site: </b>Se o href for uma url de caminho para um arquivo
+                        HTML, como "templates/pagina-contato.html", então o link vai direcionar para uma página
+                        do próprio site/diretório.</li>
+                        <li><b>Acesso a seção: </b>Se o href tiver um url como "#conclusao", então o link vai
+                        direcionar para uma seção dentro da página atual. O "#" indica uma valor de ID                       da seção alvo.</li>
+                        <li><b>Acesso a aplicação de email: </b>Se o href tiver um url como 
+                        "mailto:josefino@gmail.com", então o link vai abrir um aplicativo de email, se houver um instalado
+                        na máquina, e carregar a função de enviar email para o contato indicado no href.</li>
+                    </ul>
+                    <p>
+                        Exemplos de aplicação:<br>
+                        <div class="div-exemplo">
+                            &lta href="https://www.google.com" rel="stylesheet"&gtAcessar Google&lt/a&gt<br>
+                            &lta href="index.html" rel="stylesheet"&gtHome&lt/a&gt<br>
+                            &lta href="#conclusao" rel="stylesheet"&gtAcessar seção conclusão&lt/a&gt<br>
+                            &lta href="mailto:fabricio_fig@yahoo.com" rel="stylesheet"&gtEnviar email&lt/a&gt
+                        </div>
                     </p>
                 </article>
             </section>
