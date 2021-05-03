@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="Um manual de consulta de diversas linguagens, bibliotecas, tecnologias e frameworks.">
-        <title>Tags de Texto</title>
+        <title>Manual HTML</title>
         <link href="../../static/css/style-home.css" rel="stylesheet">
         <link href="../../static/css/style-tags-texto.css" rel="stylesheet">
     </head>
@@ -14,7 +14,7 @@
                     <a class="link-menu" href="../../index.html">Home</a>
                 </button>
                 <button class="button-menu">
-                    <a class="link-menu" href="#">HTML</a>
+                    <a class="link-menu" href="">HTML</a>
                 </button>
                 <button class="button-menu">
                     <a class="link-menu" href="#">CSS</a>
@@ -47,7 +47,7 @@
             <section class="section-principal">
                 <article class="article" id="tags-texto">
                     <header class="article-header">
-                        <h1>Tags de Texto</h1>
+                        <h1>Texto</h1>
                     </header>
                     <h2>Hierarquia de títulos</h2>
                     <p>Os títulos em HTML são hierarquizados, mudam de tamanho a medida que se aproximam do título de 
@@ -87,11 +87,54 @@
                         <li><b>&ltstrong&gt: </b>Coloca o texto em <strong>negrito</strong>, mas possui
                         uma grande importância semântica. Dá ênfase para o texto, o que pode ajudar que mecanismos
                     de busca encontrem o site.</li>
-                        <li><b>&ltem&gt: </b>Coloca o texto em <em>itálico, mas possui uma grande importância
+                        <li><b>&ltem&gt: </b>Coloca o texto em <em>itálico</em>, mas possui uma grande importância
                             semântica. Dá ênfase para o texto, o que pode ajudar que mecanismos de busca encontrem
                             o site.
                         </em></li>
                     </ul>
+                </article>
+                <article class="article">
+                    <header class="article-header">
+                        <h1>Lista</h1>
+                    </header>
+                    <h2>Tipos de lista</h2>
+                    <p>Existem dois tipos de listas em HTML, a ordenada e a não-ordenada. As duas contém a tag &ltli&gt
+                        que representa "item de lista" em inglês. Abaixo é dado o exemplo de uma lista ordenada
+                        (tag &ltol&gt):
+                     </p>
+                     <ol>
+                         <li>Item 1</li>
+                         <li>Item 2</li>
+                     </ol>
+                     <p>Abaixo é dado o exemplo de uma lista não-ordenada (tag &ltul&gt):</p>
+                     <ul>
+                         <li>Item 1</li>
+                         <li>Item 2</li>
+                     </ul>
+                </article>
+                <article class="article">
+                    <header class="article-header">
+                        <h1>Link</h1>
+                    </header>
+                    <h2>Tags de link</h2>
+                    <p>Existem dois tipos de tags para link em HTML, abaixo estas são listadas com uma breve descrição
+                        da funcionalidade de cada tag.
+                    </p>
+                    <ul>
+                        <li><b>&lta&gt: </b>Essa tag têm a função de link tradicional, onde o usuário clica e é
+                        direcionada alguma página ou seção do site ou a um site ou elemento externo.</li>
+                        <li><b>&ltlink&gt: </b>Essa tag define a relação entre a página atual e um recurso externo,
+                        como uma folha de estilo CSS e um framework.</li>
+                    </ul>
+                    <p>Abaixo está um exemplo de uso da tag &lta&gt, onde os atributos são href (url que será acessada)
+                        e target (informa ao navegador como o acesso ao href vai ocorrer). No exemplo abaixo
+                        o valor "_blank" de target têm a função de abrir o link em outra aba do navegador.<br>
+                        <div class="div-exemplo">&lta href="https://www.google.com" target="_blank"&gtAcessar
+                            Google&lt/a&gt<br><br>Como fica a aparência:<br>
+                        <a href="https://www.google.com" target="_blank">Acessar Google</a></div>
+                        Abaixo está um exemplo de uso da tag &ltlink&gt.
+                        <div class="div-exemplo">&ltlink href="static/style.css rel="stylesheet"&gt</div>
+                    </p>
                 </article>
             </section>
         </main>
