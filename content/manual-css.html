@@ -5,6 +5,7 @@
         <meta name="description" content="Manual com diversas formatções do CSS.">
         <title>Manual do Codificador</title>
         <link href="../static/css/style-home.css" rel="stylesheet">
+        <link href="../static/css/style-manual-css.css" rel="stylesheet">
     </head>
     <body>
         <header class="header-principal">
@@ -135,6 +136,47 @@
                                 dependendo do tamanho da janela.</li>
                         </ul>
                     </p> 
+                </article>
+                <article>
+                    <header>
+                        <h1>Elementos de bloco e de linha</h1>
+                    </header>
+                        <h2>Display</h2>
+                        <p>Em HTML existemn tags que determinam elementos de bloco e de linha, os de bloco ocupam 
+                            uma linha, posssuem 100% de width como padrão e recebem estilos do modelo de caixa (border, 
+                            margin, padding, width e heigth). Os elementos de linha são alinhados lado a lado e não 
+                            podem receber estilos do modelo de caixa, somente se fr alterado o estilo de display. Abaixo 
+                            são mostradas as configurações de display.
+                            <ul>
+                                
+                                <li><b></b>inline: </b>Comportamento de linha, tags adicionadas vão ficando em linha.</li>
+                                <li><b></b>block: </b>Comportamento de bloco, tags adicionadas vão ficando abaixo de outra e com 100% de 
+                                width por padrão.</li>
+                                <li><b></b>inline-block: </b>Se comporta como elemento de linha, mas com características de elemento de 
+                                bloco.</li>
+                                <li><b></b>none: </b>Remove o elemento do HTML. Uma alternativa a esse é o "visibility: hidden", 
+                                    que remove o elemento mantendo o espaço que ele ocupava.</li>
+
+                            </ul>
+                            Os elementos de linha e bloco são:
+                            <ul>
+                                <li><b>Bloco: </b>h1, p, div, footer, etc.</li>
+                                <li><b>Linha: </b>b, em, a, span, etc.</li>
+                            </ul>
+                        </p>
+                        <h2>Modelo de box</h2>
+                        <img class="modelo-box" src="../static/imagens/modelo-caixa.png" alt="Modelo de caixa">
+                        <p>
+                            Exemplos de uso: 
+                            <div class="div-exemplo">
+                                margin: 8px; &rarr; Define para todas as margens.<br>
+                                margin: 0px 0px 8px 8px; &rarr Define as margens na ordem top, rigth, bottom, left.<br>
+                                margin: auto; &rarr; Margem automática, comumente usado para centralizar um elemento de 
+                                bloco.<br>
+                                border: 1px solid red; &rarr Define borda com a ordem tamanho da borda, tipo e cor.<br><br>
+                                <b>Obs: margin e padding recebem as mesmas configurações.</b>
+                            </div>
+                        </p>
                 </article>
             </section>
         </main>
