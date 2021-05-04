@@ -3,3 +3,14 @@
     margin: auto;
     display: block;
 }
+
+.estrutura-base-html{
+    display: block;
+    margin: auto;
+}
+
+.estrutura-complexa-html{
+    display: inline-block;
+    width: 400px;
+    margin-left: 25px;
+}

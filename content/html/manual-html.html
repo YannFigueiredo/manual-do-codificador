@@ -45,6 +45,53 @@
                 </nav>
             </section>
             <section class="section-principal">
+                <article class="article">
+                    <header class="article-header">
+                        <h1>Estrutura HTML</h1>
+                    </header>
+                    <h2>Estrutura básica</h2>
+                    <p>
+                        A estrura mais básica de todo documento HTML pode ser vista abaixo.<br>
+                        <img class="estrutura-base-html" src="../../static/imagens/estrutura-basica-html.png" alt="Estrutura básica do HTML">
+                        <br>Cada tag possui a seguinte função:
+                    </p>
+                    <ul>
+                        <li><b>&lt!doctype&gt: </b>Declara que o arquivo é um documento HTML.</li>
+                        <li><b>&lthtml&gt: </b>É a tag principal que inicializa um documento HTML.</li>
+                        <li><b>&lthead&gt: </b>Contém informações complementares para o browser. Como importação de frameworks, 
+                        descrição da página, título da página, entre outras informações.</li>
+                        <li><b>&ltmeta&gt: </b>É uma tag com diversos tipos, usados via atributos, que têm a função
+                        de descrever o conteúdo de uma página para os mecanismos de busca.</li>
+                        <li><b>&lttitle&gt: </b>Informa o título da página.</li>
+                        <li><b>&ltbody&gt: </b>É a tag que têm internamente diversa soutras tags que compõe o corpo
+                        de um site/página.</li>
+                    </ul>
+                    <h2>Estrutura mais completa de um HTML</h2>
+                    <p>Um documento HTML em sua estrutura básica foi mostrado na seção anterior, porém há diversas outras
+                    estruturas, representadas por tags, internamente na tag body. As duas fotos abaixo mostram como
+                    uma página web é estruturada usando diversas tags dentro do body de um documento HTML.</p>
+                    <img class="estrutura-complexa-html" src="../../static/imagens/estrutura-complexa-html.png" alt="Estrutura complexa de um HTML">
+                    <img class="estrutura-complexa-html2" src="../../static/imagens/estrutura-complexa-html2.png" alt="Estrutura complexa de um HTML.">
+                    <p>
+                        As tags mostradas nas fotos são descritras abaixo:
+                        <ul>
+                            <li><b>&ltsection&gt: </b>Separa uma parte da página, divide o conteúdo em blocos. 
+                            Por exemplo cria uma área de postagens em um blog.</li>
+                            <li><b>&ltarticle&gt: </b>É a área com o conteúdo principal da página. Por exemplo
+                            determina a área onde fica uma postagem individual de um blog.</li>
+                            <li><b>&ltaside&gt: </b>Determina a área de um conteúdo a parte de página, como,
+                            por exemplo, uma propaganda.</li>
+                            <li><b>&ltnav&gt: </b>Determina uma área onde têm elementos de navegação, ou seja,
+                            que direcionam para outras páginas, seções ou elementos.</li>
+                            <li><b>&ltdiv&gt: </b>Agrupa elementos da página para fins de edição de estilo.</li>
+                            <li><b>&ltheader&gt: </b>É o cabeçalho da página, seção ou artigo.</li>
+                            <li><b>&ltfooter&gt: </b>É o rodapé da página, seção ou artigo.</li>
+                            <li><b>&ltmain&gt: </b>Não está exposta nas fotos acima, mas é muito importante.
+                            Essa tag é a principal do conteúdo do documento, ela agrupo todas as tags internas do 
+                            body, com exceção de header e footer do body.</li>
+                        </ul>
+                    </p>
+                </article>
                 <article class="article" id="tags-texto">
                     <header class="article-header">
                         <h1>Texto</h1>
@@ -145,7 +192,7 @@
                         HTML, como "templates/pagina-contato.html", então o link vai direcionar para uma página
                         do próprio site/diretório.</li>
                         <li><b>Acesso a seção: </b>Se o href tiver um url como "#conclusao", então o link vai
-                        direcionar para uma seção dentro da página atual. O "#" indica uma valor de ID                       da seção alvo.</li>
+                        direcionar para uma seção dentro da página atual. O "#" indica uma valor de ID da seção alvo.</li>
                         <li><b>Acesso a aplicação de email: </b>Se o href tiver um url como 
                         "mailto:josefino@gmail.com", então o link vai abrir um aplicativo de email, se houver um instalado
                         na máquina, e carregar a função de enviar email para o contato indicado no href.</li>
