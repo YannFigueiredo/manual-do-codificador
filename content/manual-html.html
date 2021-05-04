@@ -2,22 +2,22 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Um manual de consulta de diversas linguagens, bibliotecas, tecnologias e frameworks.">
+        <meta name="description" content="Manual com diversas tags do HTML.">
         <title>Manual HTML</title>
-        <link href="../../static/css/style-home.css" rel="stylesheet">
-        <link href="../../static/css/style-tags-texto.css" rel="stylesheet">
+        <link href="../static/css/style-home.css" rel="stylesheet">
+        <link href="../static/css/style-manual-html.css" rel="stylesheet">
     </head>
     <body>
         <header class="header-principal">
             <nav class="nav-menu-header">
                 <button class="button-menu">
-                    <a class="link-menu" href="../../index.html">Home</a>
+                    <a class="link-menu" href="../index.html">Home</a>
                 </button>
                 <button class="button-menu">
                     <a class="link-menu" href="">HTML</a>
                 </button>
                 <button class="button-menu">
-                    <a class="link-menu" href="#">CSS</a>
+                    <a class="link-menu" href="manual-css.html">CSS</a>
                 </button>
             </nav>
             <div class="div-titulo">
@@ -52,7 +52,7 @@
                     <h2>Estrutura básica</h2>
                     <p>
                         A estrura mais básica de todo documento HTML pode ser vista abaixo.<br>
-                        <img class="estrutura-base-html" src="../../static/imagens/estrutura-basica-html.png" alt="Estrutura básica do HTML">
+                        <img class="estrutura-base-html" src="../static/imagens/estrutura-basica-html.png" alt="Estrutura básica do HTML">
                         <br>Cada tag possui a seguinte função:
                     </p>
                     <ul>
@@ -70,8 +70,8 @@
                     <p>Um documento HTML em sua estrutura básica foi mostrado na seção anterior, porém há diversas outras
                     estruturas, representadas por tags, internamente na tag body. As duas fotos abaixo mostram como
                     uma página web é estruturada usando diversas tags dentro do body de um documento HTML.</p>
-                    <img class="estrutura-complexa-html" src="../../static/imagens/estrutura-complexa-html.png" alt="Estrutura complexa de um HTML">
-                    <img class="estrutura-complexa-html2" src="../../static/imagens/estrutura-complexa-html2.png" alt="Estrutura complexa de um HTML.">
+                    <img class="estrutura-complexa-html" src="../static/imagens/estrutura-complexa-html.png" alt="Estrutura complexa de um HTML">
+                    <img class="estrutura-complexa-html2" src="../static/imagens/estrutura-complexa-html2.png" alt="Estrutura complexa de um HTML.">
                     <p>
                         As tags mostradas nas fotos são descritras abaixo:
                         <ul>
@@ -92,6 +92,23 @@
                         </ul>
                     </p>
                 </article>
+                <article class="article">
+                    <header class="article-header">
+                        <h1>Inclusão de estilo em um HTML</h1>
+                    </header>
+                    <h2>Tipos de inclusão</h2>
+                    <p>Em um HTML há três formas para se incluir formatações de estilo do CSS. Como é 
+                        possível ver abaixo.
+                    </p>
+                    <ul>
+                        <li><b>Inline: </b>Destro das tags HTML, porém esse método não é recomendado, pois deixa 
+                        o código em estado de difícil manutenção.</li>
+                        <li><b>Interno: </b>Dentro do head do documento HTML é possível adicionar a tag &ltstyle&gt, 
+                        sendo que as formatações CSS ficam dentro da tag.</li>
+                        <li><b>Externo: </b>A página de estilo CSS fica em um arquivo separado, e este é importado 
+                        para um documento HTML através da tag &ltlink&gt no head.</li>
+                    </ul>
+                </article>
                 <article class="article" id="tags-texto">
                     <header class="article-header">
                         <h1>Texto</h1>
@@ -108,7 +125,7 @@
                         <li>Título de nível 5: <b>&lth5&gt</b>Aqui vai o título<b>&lt/h5&gt</b></li>
                         <li>Título de nível 6: <b>&lth6&gt</b>Aqui vai o título<b>&lt/h6&gt</b></li>
                     </ul>
-                    <img class="exemplos-titulos" src="../../static/imagens/exemplo-titulos.png" alt="Exemplos de títulos em HTML">
+                    <img class="exemplos-titulos" src="../static/imagens/exemplo-titulos.png" alt="Exemplos de títulos em HTML">
                     <h2>Parágrafo</h2>
                     <p>Para escrever um parágrafo em HTML basta inserir a tag &ltp&gt. Um parágrafo têm quebra de linha 
                         automática, mas podem ser adicionadas mais quebras de linha de forma manual, como mostrado 

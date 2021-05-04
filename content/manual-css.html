@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Manual com diversas formatções do CSS.">
+        <title>Manual do Codificador</title>
+        <link href="../static/css/style-home.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header-principal">
+            <nav class="nav-menu-header">
+                <button class="button-menu">
+                    <a class="link-menu" href="../index.html">Home</a>
+                </button>
+                <button class="button-menu">
+                    <a class="link-menu" href="manual-html.html">HTML</a>
+                </button>
+                <button class="button-menu">
+                    <a class="link-menu" href="">CSS</a>
+                </button>
+            </nav>
+            <div class="div-titulo">
+                <h1 class="h1-pt1">
+                    <span class="color2">Manual do </span>
+                    <span class="color1">Cod</span><span class="color2">ificador</span>
+                </h1>
+            </div>
+        </header>
+        <main>
+            <section class="section-lateral">
+                <nav class="nav-menu-lateral">
+                    <ul class="ul-lista-menu">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                        <li>Item 5</li>
+                        <li>Item 6</li>
+                        <li>Item 7</li>
+                        <li>Item 8</li>
+                        <li>Item 9</li>
+                        <li>Item 10</li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="section-principal"> <!--Área que irá mudar em cada página-->
+                <article class="article">
+                    <header class="article-header">
+                        <h1>Referência a elementos HTML</h1>
+                    </header>
+                    <h2>Tipos de referência</h2>
+                    <p>Em uma página de estilo CSS é possível fazer referência a elementos HTML, como uma div, de duas 
+                    formas:</p>
+                    <ul>
+                        <li><b>Classe: </b>Usando a classe o estilo de referência fica ".nome-da-classe{}. 
+                            A classe pode referenciar vários elementos HTML, desde que tenham o mesmo nome de classe"</li>
+                        <li><b>ID: </b>Usando a ID o estilo de referência fica "#id-elemento{}". A ID é um atributo 
+                        único por elemento, portanto é um tipo de referência individual. </li>
+                    </ul>
+                </article>
+                <article class="article">
+                    <header class="article-header">
+                        <h1>Formatação de texto</h1>
+                    </header>
+                    <h2>Fonte (font)</h2>
+                    <p>
+                        Abaixo estão os tipos de formatações usando o comando font.
+                        <ul>
+                            <li><b>font-family: </b>Seleciona uma tipo de fonte, como arial e verdana.</li>
+                            <li><b>font-size: </b>Altera o tamanho da fonte.</li>
+                            <li><b>font-style: </b>Especifica como uma fonte deve ser estilizada, se é normal, 
+                            itálica ou oblíqua.</li>
+                            <li><b>font-variant: </b>Permite que sejam definidas variantes de fonte, como small-caps, 
+                                onde todas letras ficam no formato maiúsculo mas com diferenciação de minúsculo e 
+                                maiúsculo.</li>
+                            <li><b>font-weigth: </b>Define como caracteres grossos ou finos no texto devem ser exibidos.</li>
+                        </ul>
+                    </p>
+                    <h2>Texto (text)</h2>
+                    <p>
+                        Abaixo estão os tipos de formatações usando o comando text.
+                        <ul>
+                            <li><b>text-align: </b>Alinha o texto.</li>
+                            <li><b>text-decoration: </b>Decora o texto com, por exemplo, sublinhado.</li>
+                            <li><b>text-indent: </b>Define um espaço antes do texto.</li>
+                            <li><b>text-transform: </b>Transforma o texto colocando, por exemplo, todos os 
+                                caracteres como maiúsculos.</li>
+                        </ul>
+                    </p>
+                    <h2>Outras formatações de texto</h2>
+                    <p>
+                        Formatações de texto que não estão inseridas nos comandos font e text:
+                        <ul>
+                            <li><b>color: </b>Altera a cor do texto.</li>
+                            <li><b>line-height: </b>Define o espaçamento entre linhas.</li>
+                        </ul>
+                    </p>
+                </article>
+                <article class="article">
+                    <header class="article-header">
+                        <h1>Background</h1>
+                    </header>
+                    <h2>Cor do background</h2>
+                    <p>
+                        Para alterar a cor de um background basta usar a formatação background-color na folha de estilo. 
+                        A cor pode ser definida por código RGB, digitando o nome de uma cor já definida no CSS ou ainda 
+                        selecionando uma cor personalizada manualmente caso a IDE utiliza disponibilize essa função. 
+                        Abaixo estão alguns exemplos de aplicação.
+                        <div class="div-exemplo">
+                            background-color: red;<br>
+                            background-color: #FFFFFF;<br>
+                        </div>
+                    </p>
+                    <h2>Imagem no background</h2>
+                    <p>
+                        Em um background é possível atribuir também uma imagem, ao invés de um cor, contando com diversas 
+                        formatações para um melhor tamanho, comportamento e posicionamento do background com imagem. Abaixo 
+                        estão alguns exemplos de aplicação.
+                        <div class="div-exemplo">
+                            background-image(url("imagens/foto.png"));  &rarr; Define a imagem que será o background.<br>
+                            background-attachment: fixed; &rarr; Define o comportamento da imagem de background durante o 
+                            rolamento da página.<br>
+                            background-repeat: no-repeat; &rarr; Define se a imagem repetirá para ocupar espaços vazios.<br>
+                            background-size: 100%; &rarr; Define o tamanho que a imagem vai ter para ocupar o background.<br>
+                            background-position: rigth bottom; &rarr; Posiciona a imagem no eixo x e y da tela.<br>
+                        </div>
+                    </p>
+                    <h2>Opções do background-size</h2>
+                    <p>
+                        O background-size possui as seguintes opções de formatação:
+                        <ul>
+                            <li><b>porcentagem: </b>Define a porcentagem da tela que a imagem vai ocupar.</li>
+                            <li><b>contain: </b>A imagem ocupa a tela toda, mas privilegia o conteúdo da imagem.</li>
+                            <li><b>cover: </b>A imagem ocupa a tela inteira e ignora parte do background fica escondido 
+                                dependendo do tamanho da janela.</li>
+                        </ul>
+                    </p> 
+                </article>
+            </section>
+        </main>
+        <footer class="footer-principal">Footer</footer>
+    </body>
+</html>
